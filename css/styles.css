@@ -1,6 +1,6 @@
 
 /* 
----------*/
+-------------------------------------*/
 body {
     color: #343434;
 }
@@ -9,10 +9,19 @@ img {
     width: 300px;
 }
 
+a {
+    color: #A882DD;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 /* Profile
 ------------------------------------*/
 header {
-    background: #2F3061;
+    background: #7B435B;
     color: #F7FFF7;
 }
 
@@ -22,7 +31,19 @@ header {
 /* Projects
 -------------------------------------*/
 .projects{
-    background: #F7FFF7;
+    background: #AED9E0;
+}
+
+.projects a{
+    color: #F7FFF7;
+    background: #7B435B;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects a:hover{
+    background: rgb(123, 67, 91, 45%);
+    text-decoration: none;
 }
 
 
@@ -30,7 +51,7 @@ header {
 /* Work Experience
 -------------------------------------*/
 .work-experience{
-    background: #A1C6D7;
+    background: #CAB1BD;
 }
 
 
@@ -45,6 +66,6 @@ header {
 /* Contact Info
 --------------------------------------*/
 footer {
-    background: #343434;
+    background: #404E5C;
     color: #F7FFF7;
 }
