@@ -1,5 +1,5 @@
 
-/* 
+/* Global Styles
 -------------------------------------*/
 body {
     color: #343434;
@@ -10,12 +10,18 @@ img {
 }
 
 a {
-    color: #A882DD;
+    color: #A5F8D3;
     text-decoration: none;
 }
 
 a:hover{
     text-decoration: underline;
+}
+
+.content-wrap{
+    width: 900px;
+    margin: 0 auto;
+    
 }
 
 /* Profile
@@ -35,13 +41,17 @@ header {
 }
 
 .projects a{
+    color: #802392;
+}
+
+.projects .btn{
     color: #F7FFF7;
     background: #7B435B;
     padding: 8px;
     border-radius: 4px;
 }
 
-.projects a:hover{
+.projects .btn:hover{
     background: rgb(123, 67, 91, 45%);
     text-decoration: none;
 }
