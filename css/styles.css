@@ -114,7 +114,9 @@ header {
     float: left;
     margin-right: 20px;
 } */
-
+#dorothy{
+  margin: -5rem 0rem -2rem;
+}
 .project-item h3{
     margin-top: 0;
 }
